@@ -8,5 +8,5 @@ vim.cmd("set shiftwidth=2")
 vim.opt.number = true -- Enable line numbers
 vim.opt.relativenumber = true -- Enable relative line numbers
 
--- enable clipboard 
-vim.opt.clipboard = 'unnamedplus'
+-- enable clipboard
+vim.opt.clipboard = "unnamedplus"

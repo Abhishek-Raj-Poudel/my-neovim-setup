@@ -8,6 +8,8 @@ return {
 		dependencies = {
 			"saadparwaiz1/cmp_luasnip",
 			"rafamadriz/friendly-snippets",
+      "sudar/vim-wordpress-snippets"
+
 		},
 		config = function()
 			require("luasnip.loaders.from_vscode").lazy_load() -- Load all VSCode-like snippets

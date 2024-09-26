@@ -10,3 +10,6 @@ vim.opt.relativenumber = true -- Enable relative line numbers
 
 -- enable clipboard
 vim.opt.clipboard = "unnamedplus"
+
+-- Enable concel for obsidian 
+vim.opt.conceallevel = 2

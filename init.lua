@@ -13,3 +13,4 @@ vim.opt.clipboard = "unnamedplus"
 
 -- Enable concel for obsidian 
 vim.opt.conceallevel = 2
+

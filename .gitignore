@@ -1,0 +1,25 @@
+# Ignore plugin data
+lazy-lock.json
+site/
+pack/
+
+# Undo, swap, and backup files
+*.swp
+*.swo
+*.swn
+*.un~
+*.bak
+*.tmp
+*.backup
+
+# Session files
+session.*
+
+# Logs and temporary files
+log/
+*.log
+
+# Ignore other Neovim runtime files
+spell/
+shada/
+shada/*

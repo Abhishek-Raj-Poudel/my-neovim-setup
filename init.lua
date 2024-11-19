@@ -1,16 +1,26 @@
 require("config.lazy")
---This will allow me to use space as tabs and  use two spaces for each tab
+
+-- Set tab options to use spaces instead of tabs
 vim.cmd("set expandtab")
 vim.cmd("set tabstop=2")
 vim.cmd("set softtabstop=2")
 vim.cmd("set shiftwidth=2")
 
-vim.opt.number = true -- Enable line numbers
-vim.opt.relativenumber = true -- Enable relative line numbers
+-- Enable line numbers
+vim.opt.number = true
 
--- enable clipboard
+-- Enable relative line numbers for better navigation
+vim.opt.relativenumber = true
+
+-- Enable clipboard integration with the system clipboard
 vim.opt.clipboard = "unnamedplus"
 
--- Enable concel for obsidian 
+-- Configure conceal level for Obsidian syntax highlighting
 vim.opt.conceallevel = 2
 
+-- Enable case-insensitive searching, but make it case-sensitive if uppercase letters are present
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+
+-- gen.nvim command
+vim.keymap.set({ 'n', 'v' }, '<leader>]', ':Gen<CR>')
